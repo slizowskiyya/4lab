@@ -6,7 +6,7 @@ sum: obj/main.o obj/sum.o
 obj/main.o: src/main.c
 	gcc -c src/main.c -o obj/main.o
 
-obj/sort.o: src/sort.c
+obj/sum.o: src/sum.c
 	gcc -c src/sum.c -o obj/sum.o
 
 clean:
